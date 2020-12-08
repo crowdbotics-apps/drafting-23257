@@ -6,6 +6,7 @@ import { combineReducers } from "redux";
 
 
 //@BlueprintReduxImportInsertion
+import SignIn43183288Reducer from '../features/SignIn43183288/redux/reducers'
 import SignUp14183287Reducer from '../features/SignUp14183287/redux/reducers'
 
 export const combinedReducers = combineReducers({
@@ -16,6 +17,7 @@ export const combinedReducers = combineReducers({
 
 
   //@BlueprintReduxCombineInsertion
+SignIn43183288: SignIn43183288Reducer,
 SignUp14183287: SignUp14183287Reducer,
 
 });
